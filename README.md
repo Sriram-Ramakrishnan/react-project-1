@@ -7,7 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * [Figma Design link](https://www.figma.com/file/4ctPLUvIn5b5Ep6YPOZWWd/Digital-Business-Card?t=77c8uBkhNYPasaEK-0)
 * You can view it in your laptop, but check out mobile view for better results!
 
-
+### Click this to view the webpage: [Digital Business Card](https://sriram-ramakrishnan.github.io/react-project-1)
 
 ## Available Scripts
 
