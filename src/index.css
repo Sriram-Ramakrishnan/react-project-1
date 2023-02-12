@@ -1,0 +1,124 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+.container{
+    background-color: #1A1B21;
+    width: 100%;
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+.profile-img{
+    width: 100%;
+}
+
+.dev,.info{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.dev .name{
+    font-size: 32px;
+    font-weight: 600;
+}
+.dev .role{
+    font-size: 16px;
+    font-weight: 400;
+    padding-block-end: 10px;
+    color: #F3BF99;
+}
+.dev .website{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.buttons{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.buttons > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+
+.buttons .email{
+    background-color:white;
+    color: black;
+    font-weight: 600;
+}
+
+.buttons .linkedin{
+    background-color: #5093E2;
+    color: white;
+    font-weight: 600;
+}
+.buttons img{
+    margin-right: 5px;
+}
+.info{
+    margin: 10%;
+    font-size: 13px;
+    font-weight: 200;
+    align-items: flex-start;
+}
+
+.info .title{
+    font-size: 20px;
+    font-weight: 600;
+    padding-block-start: 5px;
+}
+.info .content{
+    line-height: 19px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #161619;
+    height: 12.5vh;
+}
+
+.footer-title{
+    display: none;
+}
+.footer > img{
+    cursor: pointer;
+}
+
+@media screen and (min-width:768px) {
+    .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10% 0;
+    }
+    .container .otherinfo{
+        margin-left: -40%;
+        width: 30%;
+    }
+
+
+    .footer-title{
+        display: block;
+        font-size: 20px;
+        font-weight: 600;
+        color: white;
+        text-align: center;
+        padding-block-end: 10px;
+    }
+}
